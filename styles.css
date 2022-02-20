@@ -6,70 +6,90 @@
   box-sizing: border-box;
 }
 
-.div-container{
-    display: flex;
-    border:1px solid red;  
+.div-container {
+  display: flex;
+  border: 1px solid red;
 }
 
-.left , .right {
-    border:1px solid red;
-    width:50%;
-    height:95vh;
-    padding:2rem;
+.left,
+.right {
+  border: 1px solid red;
+  width: 50%;
+  height: 95vh;
+  padding: 2rem;
 }
 
-
-
-.left-heading{
-    font: 1.5rem Inconsolata,sans-serif;
-    color: #333333;
-    letter-spacing: -0.08em;
+.left-heading {
+  font: 1.5rem Inconsolata, sans-serif;
+  color: #333333;
+  letter-spacing: -0.08em;
 }
 
-.image-wrapper{
-    display:flex;
-    justify-content:center;
-    border:1px solid red;
-    width:100%;
-    height:100%;
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  margin-top: 12.5rem;
 }
 
-.hero-img{
-    height:447px;
-    margin-top:12.5rem;
+.hero-img {
+  height: min(238px, 447px);
 }
 
-.right-heading{
-    margin-top:12.5rem;
-    font: 4rem Space Mono,sans-serif;
-    color: #333333;
-    font-weight:700;
-    letter-spacing: -0.035em;
-    width:60%;
+.right-heading {
+  margin-top: 12.5rem;
+  font: 4rem Space Mono, sans-serif;
+  color: #333333;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  width: 60%;
 }
 
-.right-subheading{
-    font: 1.5rem Space Mono,sans-serif;
-    font-weight: 400;
-    color: #333333;
-    width:35%;
-    margin-top:2.25rem;
+.right-subheading {
+  font: 1.5rem Space Mono, sans-serif;
+  font-weight: 400;
+  color: #333333;
+  width: 35%;
+  margin-top: 2.25rem;
 }
 
-.homepage-button{
-    font:0.875rem Space Mono,sans-serif;
-    letter-spacing: -0.035em;
-    background-color:#333333;
-    margin-top:4rem;
-    text-transform: uppercase;
-    color:white;
-    padding:24px 43px 23px 43px;
-}
- 
-.footer-text{
-    font: 0.875rem Montserrat,sans-serif;
-    color: #BDBDBD;
-    text-align:center;
+.homepage-button {
+  font: 0.875rem Space Mono, sans-serif;
+  letter-spacing: -0.035em;
+  background-color: #333333;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 24px 43px 23px 43px;
 }
 
+.footer-text {
+  font: 0.875rem Montserrat, sans-serif;
+  color: #bdbdbd;
+  text-align: center;
+  
+}
 
+@media only screen and (max-width: 600px) {
+  .div-container {
+    display: block;
+  }
+  .left,
+  .right {
+    width: 100%;
+    height: auto;
+  }
+  .image-wrapper{
+      margin-top:4rem;
+  }
+  .right-heading{
+      margin-top: 3.75rem;
+      width:100%;
+      font-size:3rem;
+      padding-left:1rem;
+    }
+    .right-subheading{
+      width:95%;
+      font-size:1.125rem;
+  }
+}
