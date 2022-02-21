@@ -22,14 +22,19 @@
 
 ## Table of Contents
 
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
-## Screenshot
+## Screenshots
 
-![screenshot](Screenshot.png)
+Desktop Screenshot
+![screenshot](Screenshot0.png)
+
+Mobile Screenshot
+![screenshot](Screenshot1.png)
+
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
