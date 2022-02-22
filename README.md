@@ -23,6 +23,7 @@
 ## Table of Contents
 
 - [Screenshots](#screenshots)
+- -[Learnings](#learnings)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
@@ -37,6 +38,13 @@ Mobile Screenshot
 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+
+## Learnings
+
+- Practiced Flexbox
+- Improved on media queries
+- Used desktop-first approach instead of mobile-first (Wanted to try)
+
 
 
 ## Contact
