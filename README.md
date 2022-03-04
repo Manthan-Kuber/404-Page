@@ -22,13 +22,13 @@
 
 ## Table of Contents
 
-- [Screenshots](#screenshots)
-- -[Learnings](#learnings)
+- [Overview](#overview)
+- [Learnings](#learnings)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
-## Screenshots
+## Overview
 
 Desktop Screenshot
 ![screenshot](Screenshot0.png)
